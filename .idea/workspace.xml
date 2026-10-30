@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e151677-43bb-4663-b004-b0a660f4d52c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fpga-orderbook-controller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/design-spec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtl/msg_fifo.sv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtl/order_book_top.sv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/order_book_driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/order_book_input_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/order_book_output_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/order_book_scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/order_book_testbench.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/ref_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/testbench.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb/transaction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_order_book_smoke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_ref_model.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0000000001297762" />
+      <entry key="M5" value="1.0006603977228372" />
+      <entry key="M10" value="1.133571307073397" />
+      <entry key="M15" value="1.7969572344220581" />
+      <entry key="M30" value="5.7920058526227045" />
+      <entry key="H1" value="12.813889375694954" />
+      <entry key="H2" value="19.66923333920037" />
+      <entry key="H4" value="24.586000628336247" />
+      <entry key="D1" value="30.08071494102029" />
+      <entry key="W1" value="31.658428142857073" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="2.326836666430734E-161" />
+      <entry key="M10" value="4.82372953888455E-81" />
+      <entry key="M15" value="2.854885093233499E-54" />
+      <entry key="M30" value="1.68964052189615E-27" />
+      <entry key="H1" value="4.110523715898199E-14" />
+      <entry key="H2" value="2.0274426541577445E-7" />
+      <entry key="H4" value="4.502713242210461E-4" />
+      <entry key="D1" value="0.27685075672877696" />
+      <entry key="W1" value="0.8323784279051465" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167307382933" />
+      <entry key="S2" value="0.9979227189990506" />
+      <entry key="S5" value="0.999168569213607" />
+      <entry key="S10" value="0.9995841981612189" />
+      <entry key="S30" value="0.9998613801725043" />
+      <entry key="S60" value="0.9999306876841536" />
+      <entry key="M2" value="0.9999653433703884" />
+      <entry key="M5" value="1.0006444838808315" />
+      <entry key="M10" value="1.1333492018394034" />
+      <entry key="M15" value="1.7960871255022912" />
+      <entry key="M30" value="5.789375379520879" />
+      <entry key="H1" value="12.810642367693891" />
+      <entry key="H2" value="19.666680852546" />
+      <entry key="H4" value="24.584850090129716" />
+      <entry key="D1" value="30.35723489594976" />
+      <entry key="W1" value="32.490755341544215" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LLLIjmApUvGECQ2gvctPTz3RA1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/yixuanliu/PycharmProjects/fpga-orderbook-controller/tb",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tb" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rtl" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tb" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e151677-43bb-4663-b004-b0a660f4d52c" name="Changes" comment="" />
+      <created>1793228323679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793228323679</updated>
+      <workItem from="1793231703125" duration="15286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
